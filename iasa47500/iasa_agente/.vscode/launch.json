@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "configurations": [
+        {
+            "name": "A Executar",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/blocos/executavel.py",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src:${workspaceFolder}/src/lib",
+                "PYTHONDONTWRITEBYTECODE": "1"
+            },
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

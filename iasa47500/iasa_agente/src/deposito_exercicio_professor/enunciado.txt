@@ -1,0 +1,16 @@
+Problema do deposito de agua:
+
+Dado um deposito de agua com um determinado volume inicial
+de agua e dois recipientes de 2 e 3 litros, com quais é
+possível encher e vazar o deposito, determinar qual a
+sequencia de acoes de encher e vazar que deve ser feita
+para o deposito ter um determinado volume final de agua.
+O custo de cada accao é proporcional ao quadrado do volume 
+de agua transferido.
+
+Os resultados devem ser apresentados no seguinte formato
+Volume inicial: 0
+Volume final: 9
+Solucao: [Encher(2), Encher(2), Encher(2), Encher(3)]
+Dimensao : 4
+Custo : 21
